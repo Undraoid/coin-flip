@@ -2,7 +2,7 @@ import "./App.css";
 
 function Navbar() {
   return (
-    <nav className="flex flex-col gap-3 justify-between py-4 p-2 md:py-4 md:px-2 md:flex md:flex-row">
+    <nav className="flex flex-col gap-3 justify-between py-4 p-2 md:py-4 md:px-2 md:flex md:flex-row md:gap-1">
       <div className="hidden pl-2 md:flex">
         <button className="p-1 px-5 py-2 border border-white rounded-md mr-4 hover:bg-gray-700">
           <svg
@@ -26,7 +26,7 @@ function Navbar() {
       </div>
 
       <div className="flex pr-0 gap-3 justify-center md:pr-2">
-        <button className="flex p-1 py-1 px-2 text-sm border items-center justify-center bg-indigo-600 border-indigo-600 text-white font-bold rounded-full transition ease-in-out delay-150 hover:scale-95 duration-100 md:px-5 md:py-2">
+        <button className="flex p-1 py-1 px-2 text-xs border items-center justify-center bg-indigo-600 border-indigo-600 text-white font-bold rounded-full transition ease-in-out delay-150 hover:scale-95 duration-100 md:px-5 md:py-2 md:text-sm">
           RECENT
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -42,15 +42,15 @@ function Navbar() {
           </svg>
         </button>
 
-        <button className="flex p-1 py-1 px-2 text-sm border items-center justify-center bg-indigo-600 border-indigo-600 text-white  font-bold rounded-full transition ease-in-out delay-150 hover:scale-95 duration-100 md:px-5 md:py-2">
+        <button className="flex p-1 py-1 px-2 text-xs border items-center justify-center bg-indigo-600 border-indigo-600 text-white  font-bold rounded-full transition ease-in-out delay-150 hover:scale-95 duration-100 md:px-5 md:py-2 md:text-sm">
           TOP STREAKS
         </button>
 
-        <button className="flex p-1 py-1 px-2 text-sm border items-center justify-center bg-indigo-600 border-indigo-600 text-white  font-bold rounded-full transition ease-in-out delay-150 hover:scale-95 duration-100 md:px-5 md:py-2">
+        <button className="flex p-1 py-1 px-2 text-xs border items-center justify-center bg-indigo-600 border-indigo-600 text-white  font-bold rounded-full transition ease-in-out delay-150 hover:scale-95 duration-100 md:px-5 md:py-2 md:text-sm">
           STATS
         </button>
 
-        <button className="flex p-1 py-1 px-2 text-sm border items-center justify-center bg-indigo-600 border-indigo-600 text-white  font-bold rounded-full transition ease-in-out delay-150 hover:scale-95 duration-100 md:px-5 md:py-2">
+        <button className="flex p-1 py-1 px-2 text-xs border items-center justify-center bg-indigo-600 border-indigo-600 text-white  font-bold rounded-full transition ease-in-out delay-150 hover:scale-95 duration-100 md:px-5 md:py-2 md:text-sm">
           LIVEPLAYS
         </button>
       </div>
