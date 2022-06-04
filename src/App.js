@@ -2,8 +2,8 @@ import "./App.css";
 
 function Navbar() {
   return (
-    <nav className="flex flex-col gap-3 justify-between p-2 md:py-4 px-2 md:flex md:flex-row">
-      <div className="flex pl-2">
+    <nav className="flex flex-col gap-3 justify-between py-4 p-2 md:py-4 md:px-2 md:flex md:flex-row">
+      <div className="hidden pl-2 md:flex">
         <button className="p-1 px-5 py-2 border border-white rounded-md mr-4 hover:bg-gray-700">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +66,8 @@ function Flip() {
       </h1>
       <img
         src="https://media.discordapp.net/attachments/982155655630696518/982416830570299402/unknown.png"
-        className="h-56 pt-5" alt=""
+        className="h-56 pt-5"
+        alt=""
       />
       <button className="bg-indigo-600 mt-5 text-white rounded-md p-3 border font-bold px-6 border-indigo-600 transition ease-in-out delay-150 hover:scale-95 duration-100">
         Select Wallet
