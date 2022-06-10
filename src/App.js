@@ -226,7 +226,7 @@ function FlipPage() {
   };
 
   return (
-    <div>
+    <div class>
       <Navbar />
 
       <div className="flex justify-center">
